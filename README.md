@@ -48,5 +48,3 @@ Convert the data into CSV format
 Allow for easier processing and visualization
 
 ---
-
-If you want, I can also make an **even slicker version with badges, table of contents, and collapsibl
