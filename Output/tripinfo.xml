@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2025-10-31 16:06:45 by Eclipse SUMO sumo Version 1.24.0
+<!-- generated on 2025-10-31 16:28:47 by Eclipse SUMO sumo Version 1.24.0
 <sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
 
     <input>
-        <net-file value="C:\Users\Erik\Documents\Project_lab\Project_lab\ramp\ramp.net.xml"/>
-        <route-files value="C:\Users\Erik\Documents\Project_lab\Project_lab\ramp\ramp.rou.xml"/>
+        <net-file value="ramp\ramp.net.xml"/>
+        <route-files value="ramp\ramp.rou.xml"/>
     </input>
 
     <output>
