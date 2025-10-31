@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nodes>
+  <!-- Highway nodes -->
+  <node id="N0"  x="0.0"    y="0.0"  type="priority"/>
+  <node id="N1"  x="500.0"  y="0.0"  type="priority"/>   <!-- merge point -->
+  <!-- NEW: end of acceleration lane, later on the highway -->
+  <node id="N1A" x="1100.0" y="0.0" type="priority"/>
+
+  <node id="N2"  x="1500.0" y="0.0"  type="priority"/>
+
+  <!-- Driveway (on-ramp) start -->
+  <node id="R0" x="400.0" y="-80.0" type="priority"/>
+
+</nodes>
