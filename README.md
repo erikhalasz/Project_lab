@@ -1,13 +1,53 @@
-# Project_lab
-2025 Project lab sumo
+# 🚗 Project Lab Sumo – 2025
+---
 
-To Run this you need to navigate to the C:\...\Project_lab directory and run in the terminal something like this:
+## 🗂 Project Structure
 
-Replace the % in the command below with the full path to your ramp directory (for example: C:\Users\Somebody\Documents\Project\ramp).
+Project_lab/
+├─ ramp/ # Your ramp network files (.sumocfg etc.)
+├─ Output/ # Generated XML output files
+├─ Analysis/ # Python scripts to convert XML to CSV
+└─ README.md # This file
 
-Example command:
+---
+
+## 🚀 How to Run the Simulation
+
+### 1. Navigate to the Project Directory
+Open your terminal and go to the project folder:
+
+```bash
+cd C:\...\Project_lab
+2. Run SUMO
+Specify the full path to your ramp directory.
+Replace % in the template command with your actual path.
+
+Example:
+
 sumo -c "C:\Users\Somebody\Documents\Project\ramp\ramp.sumocfg" --summary-output "Output\summary.xml" --tripinfo-output "Output\tripinfo.xml" --edgedata-output "Output\edgeData.xml"
+Template:
 
+bash
+Kód másolása
 sumo -c "%\ramp.sumocfg" --summary-output "Output\summary.xml" --tripinfo-output "Output\tripinfo.xml" --edgedata-output "Output\edgeData.xml"
+📂 Output Files
+After running the simulation, the Output folder will contain:
 
-You can find in the Analysis folder three python files that generate the different csv files that contain the data extracted from the simulation.
+summary.xml – overall simulation summary
+
+tripinfo.xml – trip-by-trip information
+
+edgeData.xml – detailed edge/road data
+
+📊 Analyze the Results
+Inside the Analysis folder, you’ll find three Python scripts that:
+
+Extract data from XML files
+
+Convert the data into CSV format
+
+Allow for easier processing and visualization
+
+---
+
+If you want, I can also make an **even slicker version with badges, table of contents, and collapsibl
