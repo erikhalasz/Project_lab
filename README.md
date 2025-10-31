@@ -4,10 +4,10 @@
 ## 🗂 Project Structure
 
 Project_lab/
-├─ ramp/ # Your ramp network files (.sumocfg etc.)
-├─ Output/ # Generated XML output files
-├─ Analysis/ # Python scripts to convert XML to CSV
-└─ README.md # This file
+├─ ramp/       Your ramp network files (.sumocfg, .net.xml, etc.)
+├─ Output/     Generated XML output files from SUMO
+├─ Analysis/   Python scripts to convert XML output to CSV
+└─ README.md   This documentation file
 
 ---
 
