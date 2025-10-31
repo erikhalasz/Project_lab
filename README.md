@@ -27,8 +27,7 @@ Example:
 sumo -c "C:\Users\Somebody\Documents\Project\ramp\ramp.sumocfg" --summary-output "Output\summary.xml" --tripinfo-output "Output\tripinfo.xml" --edgedata-output "Output\edgeData.xml"
 Template:
 
-bash
-Kód másolása
+
 sumo -c "%\ramp.sumocfg" --summary-output "Output\summary.xml" --tripinfo-output "Output\tripinfo.xml" --edgedata-output "Output\edgeData.xml"
 📂 Output Files
 After running the simulation, the Output folder will contain:
