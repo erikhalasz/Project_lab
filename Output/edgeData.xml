@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2025-10-31 16:06:45 by Eclipse SUMO sumo Version 1.24.0
+<sumoConfiguration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/sumoConfiguration.xsd">
+
+    <input>
+        <net-file value="C:\Users\Erik\Documents\Project_lab\Project_lab\ramp\ramp.net.xml"/>
+        <route-files value="C:\Users\Erik\Documents\Project_lab\Project_lab\ramp\ramp.rou.xml"/>
+    </input>
+
+    <output>
+        <summary-output value="Output\summary.xml"/>
+        <tripinfo-output value="Output\tripinfo.xml"/>
+        <edgedata-output value="Output\edgeData.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="900"/>
+        <step-length value="0.2"/>
+    </time>
+
+    <report>
+        <no-step-log value="true"/>
+    </report>
+
+</sumoConfiguration>
+-->
+
+<meandata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/meandata_file.xsd">
+    <interval begin="0.00" end="900.00" id="DEFAULT_EDGEDATA">
+        <edge id="main_0" sampledSeconds="4534.30" traveltime="15.11" overlapTraveltime="15.27" density="10.22" laneDensity="5.11" occupancy="2.54" waitingTime="0.00" timeLoss="106.82" speed="32.60" speedRelative="0.98" departed="300" arrived="0" entered="0" left="300" laneChangedFrom="93" laneChangedTo="93"/>
+        <edge id="main_1a" sampledSeconds="5387.10" traveltime="13.66" overlapTraveltime="13.81" density="15.04" laneDensity="5.01" occupancy="2.47" waitingTime="0.00" timeLoss="649.95" speed="29.17" speedRelative="0.88" departed="0" arrived="0" entered="390" left="390" laneChangedFrom="148" laneChangedTo="148"/>
+        <edge id="main_1b" sampledSeconds="7368.95" traveltime="18.80" overlapTraveltime="18.96" density="13.74" laneDensity="6.87" occupancy="3.41" waitingTime="0.00" timeLoss="327.64" speed="31.70" speedRelative="0.95" departed="0" arrived="390" entered="390" left="0" laneChangedFrom="23" laneChangedTo="23"/>
+        <edge id="ramp_0" sampledSeconds="758.65" traveltime="7.96" overlapTraveltime="8.73" density="5.83" laneDensity="5.83" occupancy="2.79" waitingTime="0.00" timeLoss="118.43" speed="17.13" speedRelative="0.77" departed="90" arrived="0" entered="0" left="90" laneChangedFrom="0" laneChangedTo="0"/>
+    </interval>
+</meandata>
