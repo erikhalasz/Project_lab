@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import pandas as pd
 
-tree = ET.parse('./output/edgeData.xml')
+tree = ET.parse('./Output/edgeData.xml')
 root = tree.getroot()
 
 records = []
@@ -20,4 +20,4 @@ for interval in root.findall('interval'):
         })
 
 edges_df = pd.DataFrame(records)
-edges_df.to_csv('edge_density.csv', index=False)
+edges_df.to_csv('./Analysis/important_outputs/edge_density.csv', index=False)

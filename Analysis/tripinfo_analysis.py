@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import pandas as pd
 
-tree = ET.parse('output/tripinfo.xml')
+tree = ET.parse('./Output/tripinfo.xml')
 root = tree.getroot()
 
 rows = []
@@ -16,5 +16,4 @@ for trip in root.findall('tripinfo'):
     })
 
 df = pd.DataFrame(rows)
-print(df.describe())
-df.to_csv('tripinfo_summary.csv', index=False)
+df.to_csv('./Analysis/important_outputs/tripinfo_summary.csv', index=False)

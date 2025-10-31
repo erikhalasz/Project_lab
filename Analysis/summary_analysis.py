@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import pandas as pd
 
 # Parse the summary XML
-tree = ET.parse('output/summary.xml')
+tree = ET.parse('./Output/summary.xml')
 root = tree.getroot()
 
 # Collect data from each step
@@ -14,6 +14,5 @@ for step in root.findall('step'):
 df = pd.DataFrame(rows)
 
 # Save to CSV for analysis
-df.to_csv('summary_steps.csv', index=False)
+df.to_csv('./Analysis/important_outputs/summary_steps.csv', index=False)
 
-print(df.head())
