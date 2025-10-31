@@ -24,10 +24,8 @@ cd C:\...\Project_lab
 ```bash
 
 sumo -c "ramp\ramp.sumocfg" --summary-output "Output\summary.xml" --tripinfo-output "Output\tripinfo.xml" --edgedata-output "Output\edgeData.xml"
-Template:
+```
 
-
-sumo -c "ramp\ramp.sumocfg" --summary-output "Output\summary.xml" --tripinfo-output "Output\tripinfo.xml" --edgedata-output "Output\edgeData.xml"
 📂 Output Files
 After running the simulation, the Output folder will contain:
 
