@@ -33,7 +33,15 @@ cd C:\...\Project_lab
 sumo -c "ramp\ramp.sumocfg" --summary-output "Output\summary.xml" --tripinfo-output "Output\tripinfo.xml" --edgedata-output "Output\edgeData.xml"
 ```
 
-📂 Output Files
+#### SUMO in GUI
+
+If you want to run the simulation in GUI, run the following command:
+
+```bash
+sumo-gui -c ramp/ramp.sumocfg
+```
+
+#### 📂 Output Files
 After running the simulation, the Output folder will contain:
 
 summary.xml – overall simulation summary
