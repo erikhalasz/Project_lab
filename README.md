@@ -46,7 +46,7 @@ Convert the data into CSV format
 
 Allow for easier processing and visualization
 
-You can find the generated CSV files in `Analysis/important_outputs/`: `edge_density.csv`, `summary_steps.csv`, and `tripinfo_summary.csv`.
+You can find the generated CSV files in `Analysis/analysis_results`: `edge_density.csv`, `summary_steps.csv`, and `tripinfo_summary.csv`.
 
 
 ---
