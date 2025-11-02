@@ -62,7 +62,7 @@ You can find the generated CSV files in `Analysis/analysis_results`: `edge_densi
 
 
 ---
-### 3.⚡ Alternatively, You Can Run Everything in One Command
+### ⚡ Alternatively, You Can Run Everything in One Command
 
 You can run the simulation and process all XML files into CSVs in one go:
 
