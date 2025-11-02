@@ -5,11 +5,16 @@
 
 ```text
 Project_lab/
-├─ ramp/                Your ramp network files (.sumocfg, .net.xml, etc.)
-├─ Output/              Generated XML output files from SUMO
-├─ Analysis/            Python scripts to convert XML output to CSV
-│  └─ analysis_results/ The CSV files extracted via the Python scripts
-└─ README.md            This documentation file
+├─ ramp/
+├─ Output/
+├─ Analysis/
+│  ├─ analysis_results/
+│  ├─ edgedata_analysis.py
+│  ├─ summary_analysis.py
+│  └─ tripinfo_analysis.py
+├─ run_sumo_and_analyse.bat
+└─ README.md
+
 ```
 ---
 
@@ -46,22 +51,23 @@ Convert the data into CSV format
 
 Allow for easier processing and visualization
 
+You can run these scripts, using the following command:
+```bash
+python .\Analysis\edgedata_analysis.py
+python .\Analysis\summary_analysis.py
+python .\Analysis\tripinfo_analysis.py
+```
+
 You can find the generated CSV files in `Analysis/analysis_results`: `edge_density.csv`, `summary_steps.csv`, and `tripinfo_summary.csv`.
 
 
 ---
-### 3.⚡ Run Everything in One Command
+### 3.⚡ Alternatively, You Can Run Everything in One Command
 
 You can run the simulation and process all XML files into CSVs in one go:
 
 ```bash
-sumo -c "ramp\ramp.sumocfg" \
-  --summary-output "Output\summary.xml" \
-  --tripinfo-output "Output\tripinfo.xml" \
-  --edgedata-output "Output\edgeData.xml"; \
-python .\Analysis\edgedata_analysis.py; \
-python .\Analysis\summary_analysis.py; \
-python .\Analysis\tripinfo_analysis.py
+.\run_sumo_and_analyse.bat
 
 ```
 
