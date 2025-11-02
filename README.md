@@ -8,7 +8,7 @@ Project_lab/
 ├─ ramp/       Your ramp network files (.sumocfg, .net.xml, etc.)
 ├─ Output/     Generated XML output files from SUMO
 ├─ Analysis/   Python scripts to convert XML output to CSV
-  └─important_outputs/  Tthe CSV files extracted via the python scripts
+  └─analysis_results/  Tthe CSV files extracted via the python scripts
 └─ README.md   This documentation file
 ```
 ---
