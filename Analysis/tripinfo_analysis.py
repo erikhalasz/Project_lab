@@ -16,4 +16,4 @@ for trip in root.findall('tripinfo'):
     })
 
 df = pd.DataFrame(rows)
-df.to_csv('./Analysis/important_outputs/tripinfo_summary.csv', index=False)
+df.to_csv('./Analysis/analysis_results/tripinfo_summary.csv', index=False)

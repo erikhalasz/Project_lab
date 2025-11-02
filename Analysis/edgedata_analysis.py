@@ -20,4 +20,4 @@ for interval in root.findall('interval'):
         })
 
 edges_df = pd.DataFrame(records)
-edges_df.to_csv('./Analysis/important_outputs/edge_density.csv', index=False)
+edges_df.to_csv('./Analysis/analysis_results/edge_density.csv', index=False)

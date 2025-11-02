@@ -14,5 +14,5 @@ for step in root.findall('step'):
 df = pd.DataFrame(rows)
 
 # Save to CSV for analysis
-df.to_csv('./Analysis/important_outputs/summary_steps.csv', index=False)
+df.to_csv('./Analysis/analysis_results/summary_steps.csv', index=False)
 
