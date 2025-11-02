@@ -5,11 +5,11 @@
 
 ```text
 Project_lab/
-├─ ramp/       Your ramp network files (.sumocfg, .net.xml, etc.)
-├─ Output/     Generated XML output files from SUMO
-├─ Analysis/   Python scripts to convert XML output to CSV
-  └─analysis_results/  Tthe CSV files extracted via the python scripts
-└─ README.md   This documentation file
+├─ ramp/                Your ramp network files (.sumocfg, .net.xml, etc.)
+├─ Output/              Generated XML output files from SUMO
+├─ Analysis/            Python scripts to convert XML output to CSV
+│  └─ analysis_results/ The CSV files extracted via the Python scripts
+└─ README.md            This documentation file
 ```
 ---
 
