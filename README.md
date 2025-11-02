@@ -44,11 +44,11 @@ sumo-gui -c ramp/ramp.sumocfg
 #### 📂 Output Files
 After running the simulation, the Output folder will contain:
 
-summary.xml – overall simulation summary
+`summary.xml` – overall simulation summary
 
-tripinfo.xml – trip-by-trip information
+`tripinfo.xml` – trip-by-trip information
 
-edgeData.xml – detailed edge/road data
+`edgeData.xml` – detailed edge/road data
 
 📊 Analyze the Results
 Inside the Analysis folder, you’ll find three Python scripts that:
