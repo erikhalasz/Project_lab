@@ -9,15 +9,11 @@ Project_lab/
 ├─ Output/
 ├─ Analysis/
 │  ├─ analysis_results/
-│  ├─ edgedata_analysis.py
-│  ├─ summary_analysis.py
-│  └─ tripinfo_analysis.py
+├─ generation/
 ├─ test/
-├─ run_sumo_and_analyse.bat
 ├─ run_multiple_simulations.py
-├─ sim_summary_min.csv
 ├─ kutatasi_terv.pdf
-├─ generate_xml.py
+├─ run_sumo_and_analyse.bat
 └─ README.md
 
 ```
@@ -40,14 +36,20 @@ After creating the necessary parameter space for the simulations in the ```run_m
 ```bash
 python .\run_multiple_simulations.py
 ```
---- 
+
+After that, you can find the data extracted in the ```sim_summary_min.csv``` file.
+
+---
 
 ## If you do NOT want to create multiple simulations:
 
 ### 2. Run SUMO
 
-```bash
+```text
+Note: this will run with the current setup in the ramp folder.
+``` 
 
+```bash
 sumo -c "ramp\ramp.sumocfg" --summary-output "Output\summary.xml" --tripinfo-output "Output\tripinfo.xml" --edgedata-output "Output\edgeData.xml"
 ```
 

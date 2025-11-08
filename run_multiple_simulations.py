@@ -2,7 +2,7 @@ import os
 import subprocess
 import shutil
 from datetime import datetime
-from generate_xml import RouteXMLGenerator, EdgeXMLGenerator
+from Project_lab.generation.generate_xml import RouteXMLGenerator, EdgeXMLGenerator
 
 
 def run_command(command):
@@ -197,7 +197,7 @@ import os
 import subprocess
 import shutil
 from datetime import datetime
-from generate_xml import RouteXMLGenerator, EdgeXMLGenerator
+from Project_lab.generation.generate_xml import RouteXMLGenerator, EdgeXMLGenerator
 
 
 def run_command(command):
@@ -392,7 +392,7 @@ import os
 import subprocess
 import shutil
 from datetime import datetime
-from generate_xml import RouteXMLGenerator, EdgeXMLGenerator
+from Project_lab.generation.generate_xml import RouteXMLGenerator, EdgeXMLGenerator
 import numpy as np
 
 

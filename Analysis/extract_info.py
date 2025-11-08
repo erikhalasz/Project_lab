@@ -110,7 +110,7 @@ def main():
     parser.add_argument('--edg', default='../ramp/ramp.edg.xml', help='Path to .edg file')
     parser.add_argument('--rou', default='../ramp/ramp.rou.xml', help='Path to .rou file')
     parser.add_argument('--summary', default='../Output/summary.xml', help='Path to summary.xml file')
-    parser.add_argument('--out', default='../sim_summary_min.csv', help='Output CSV')
+    parser.add_argument('--out', default='../NN/sim_summary_min.csv', help='Output CSV')
     parser.add_argument('--sim-id', default=None, help='Simulation identifier')
     args = parser.parse_args()
 
