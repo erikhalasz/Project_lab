@@ -12,7 +12,12 @@ Project_lab/
 │  ├─ edgedata_analysis.py
 │  ├─ summary_analysis.py
 │  └─ tripinfo_analysis.py
+├─ test/
 ├─ run_sumo_and_analyse.bat
+├─ run_multiple_simulations.py
+├─ sim_summary_min.csv
+├─ kutatasi_terv.pdf
+├─ generate_xml.py
 └─ README.md
 
 ```
@@ -26,6 +31,19 @@ Open your terminal and go to the project folder:
 ```bash
 cd C:\...\Project_lab
 ```
+---
+
+### To extract data from all simulations for neural network:
+
+After creating the necessary parameter space for the simulations in the ```run_multiple_simulations.py``` file write this in the terminal
+
+```bash
+python .\run_multiple_simulations.py
+```
+--- 
+
+## If you do NOT want to create multiple simulations:
+
 ### 2. Run SUMO
 
 ```bash
