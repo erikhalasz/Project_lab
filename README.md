@@ -37,7 +37,7 @@ After creating the necessary parameter space for the simulations in the ```run_m
 python .\run_multiple_simulations.py
 ```
 
-After that, you can find the data extracted in the ```sim_summary_min.csv``` file.
+After that, you can find the data extracted in the ```sim_summary_min.csv``` file in the ```NN``` folder.
 
 ---
 
