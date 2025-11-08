@@ -2,7 +2,7 @@ import os
 import subprocess
 import shutil
 from datetime import datetime
-from Project_lab.generation.generate_xml import RouteXMLGenerator, EdgeXMLGenerator
+from generation.generate_xml import RouteXMLGenerator, EdgeXMLGenerator
 
 
 def run_command(command):

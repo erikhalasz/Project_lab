@@ -7,7 +7,7 @@
     <route edges="main_0 main_1a main_1b"/>
   </flow>
   <!--Ramp flow: driveway vehicles merging in and using accel lane-->
-  <flow id="rampFlow" type="car" begin="0" end="600" vehsPerHour="450" departLane="free" departSpeed="max">
+  <flow id="rampFlow" type="car" begin="0" end="600" vehsPerHour="200" departLane="free" departSpeed="max">
     <route edges="ramp_0 main_1a main_1b"/>
   </flow>
 </routes>
