@@ -3,11 +3,11 @@
   <!--Vehicle type with default LC2013 lane-change model-->
   <vType id="car" accel="2.6" decel="4.5" length="5.0" maxSpeed="38.0" sigma="0.5" lcStrategic="1.0" lcCooperative="1.0" lcSpeedGain="1.0" lcKeepRight="1.5"/>
   <!--Mainline flow: steady highway traffic-->
-  <flow id="mainFlow" type="car" begin="0" end="600" vehsPerHour="800" departLane="free" departSpeed="max">
+  <flow id="mainFlow" type="car" begin="0" end="600" vehsPerHour="3700" departLane="free" departSpeed="max">
     <route edges="main_0 main_1a main_1b"/>
   </flow>
   <!--Ramp flow: driveway vehicles merging in and using accel lane-->
-  <flow id="rampFlow" type="car" begin="0" end="600" vehsPerHour="200" departLane="free" departSpeed="max">
+  <flow id="rampFlow" type="car" begin="0" end="600" vehsPerHour="900" departLane="free" departSpeed="max">
     <route edges="ramp_0 main_1a main_1b"/>
   </flow>
 </routes>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <edges>
   <!--Highway, 2 lanes, higher priority-->
-  <edge id="main_0" from="N0" to="N1" priority="3" numLanes="2" speed="25.0"/>
+  <edge id="main_0" from="N0" to="N1" priority="3" numLanes="2" speed="30.0"/>
   <!--Highway segment WITH acceleration lane (3 lanes right after the merge)-->
-  <edge id="main_1a" from="N1" to="N1A" priority="3" numLanes="3" speed="25.0"/>
+  <edge id="main_1a" from="N1" to="N1A" priority="3" numLanes="3" speed="30.0"/>
   <!--Highway segment AFTER acceleration lane ends (back to 2 lanes)-->
-  <edge id="main_1b" from="N1A" to="N2" priority="3" numLanes="2" speed="25.0"/>
+  <edge id="main_1b" from="N1A" to="N2" priority="3" numLanes="2" speed="30.0"/>
   <!--Driveway / on-ramp, 1 lane, lower priority-->
-  <edge id="ramp_0" from="R0" to="N1" priority="1" numLanes="1" speed="15.0"/>
+  <edge id="ramp_0" from="R0" to="N1" priority="1" numLanes="1" speed="20.0"/>
 </edges>

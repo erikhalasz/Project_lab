@@ -118,10 +118,10 @@ def create_iteration_folder(iteration):
 
 def main():
     # Hard-coded parameter lists (no CLI parameters). Adjust these lists here.
-    highway_speeds = list(frange(25.0, 129.5, 0.5))   # 25.0 .. 129.5 by 0.5
-    ramp_speeds = list(frange(15.0, 99.5, 0.5))       # 15.0 .. 99.5 by 0.5
-    mainline_flows = list(range(800, 5000, 50))      # 800 .. 4950 step 50
-    ramp_flows = list(range(200, 2000, 25))          # 200 .. 1975 step 25
+    highway_speeds = list(frange(30.0, 140, 10))   # 25.0 .. 129.5 by 0.5
+    ramp_speeds = list(frange(20.0, 110, 10))       # 15.0 .. 99.5 by 0.5
+    mainline_flows = list(range(800, 5000, 100))      # 800 .. 4950 step 50
+    ramp_flows = list(range(200, 2000, 100))          # 200 .. 1975 step 25
 
     # Use streaming generator to avoid building the full grid in memory
     total = count_valid_combinations(highway_speeds, ramp_speeds, mainline_flows, ramp_flows)
