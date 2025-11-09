@@ -3,6 +3,7 @@
   <input>
     <net-file value="ramp.net.xml"/>
     <route-files value="ramp.rou.xml"/>
+      <additional-files value="input_additional.add.xml"/>
   </input>
 
   <time>
