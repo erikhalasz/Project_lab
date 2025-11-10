@@ -99,3 +99,48 @@ You can run the simulation and process all XML files into CSVs in one go:
 
 ```
 
+
+## 🧭 Git Quickstart Tutorial (For First-Time Users)
+If you’ve never used Git before, follow these steps to get started.
+
+
+### 🪶 1. Navigate to Your Working Directory
+
+Open your terminal (or command prompt) and move to your desired working directory:
+```bash 
+cd C:\...\Documents
+```
+
+### 🌱 2. Clone the Repository
+
+Clone the project from GitHub by running:
+```bash
+https://github.com/erikhalasz/Project_lab.git
+```
+
+### 🌿 3. Create Your Own Branch
+
+After cloning, you’ll be on the main branch by default.
+To create your own development branch (so your work stays separate), run:
+```bash
+git checkout -b [your_name]_dev
+```
+
+### ✏️ 4. Make Changes and Commit Them
+
+Once you’ve made some changes in your branch, save them to Git with:
+```bash
+git add .
+git commit -m "Describe your changes here"
+```
+
+### ☁️ 5. Push Your Changes to GitHub
+
+Finally, upload your branch and commits to the remote repository:
+```bash 
+git push
+``` 
+> ### 📚 Learn More About Git  
+> Want to dive deeper into **Git branching** and workflows?  
+> Check out this excellent interactive tutorial:  
+> 🔗 [**Learn Git Branching**](https://learngitbranching.js.org/)
