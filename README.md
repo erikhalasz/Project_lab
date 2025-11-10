@@ -140,7 +140,7 @@ Finally, upload your branch and commits to the remote repository:
 ```bash 
 git push
 ``` 
-> ### 📚 Learn More About Git  
-> Want to dive deeper into **Git branching** and workflows?  
-> Check out this excellent interactive tutorial:  
-> 🔗 [**Learn Git Branching**](https://learngitbranching.js.org/)
+ ### 📚 Learn More About Git  
+ Want to dive deeper into **Git branching** and workflows?  
+ Check out this excellent interactive tutorial:  
+ 🔗 [**Learn Git Branching**](https://learngitbranching.js.org/)
