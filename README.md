@@ -1,6 +1,10 @@
 # 🚗 Project Lab Sumo – 2025
 ---
+## 🎯 Project Purpose
 
+This project aims to develop machine learning models that can learn from SUMO traffic simulation data and predict key traffic performance metrics. By automating both the simulation and data extraction processes, we create a workflow where different models can analyze and forecast traffic outcomes based on different simulation configurations.
+
+---
 ## 🗂 Project Structure
 
 ```text
