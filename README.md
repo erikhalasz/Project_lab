@@ -7,6 +7,7 @@
 Project_lab/
 ├─ ramp/
 ├─ Output/
+├─ NN/
 ├─ Analysis/
 │  ├─ analysis_results/
 ├─ generation/
@@ -98,7 +99,9 @@ You can run the simulation and process all XML files into CSVs in one go:
 .\run_sumo_and_analyse.bat
 
 ```
-
+---
+### You can explore and experiment with the models located in the NN folder.
+---
 
 ## 🧭 Git Quickstart Tutorial (For First-Time Users)
 If you’ve never used Git before, follow these steps to get started.
@@ -115,7 +118,7 @@ cd C:\...\Documents
 
 Clone the project from GitHub by running:
 ```bash
-https://github.com/erikhalasz/Project_lab.git
+git clone https://github.com/erikhalasz/Project_lab.git
 ```
 
 ### 🌿 3. Create Your Own Branch
